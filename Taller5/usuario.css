@@ -1,0 +1,250 @@
+body{
+
+    background-image: url("https://img.freepik.com/foto-gratis/blur-hospital_1203-7972.jpg?size=626&ext=jpg");
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height:100vh;
+	font-family: Georgia;
+	width: 90%;
+	height: 90%;
+
+}
+
+
+.title1{
+
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 0.01cm;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.15);
+    position: relative;
+    color: #444444;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    width: 8cm;
+    height: 30%;
+    
+
+}
+
+.userRegister{
+
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    border-bottom-style: solid;
+    border-color: lightgray;
+
+}
+
+
+
+.Name{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 70%;
+    height: 1cm;
+    padding-left: 10px;
+    font-size: 1em;
+
+}
+
+.Name::placeholder{
+
+    font-size: 1em;
+}
+
+.LastName{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 70%;
+    height: 1cm;
+    padding-left: 10px;
+    font-size: 1em;
+
+}
+
+.LastName::placeholder{
+
+    font-size: 1em;
+
+}
+
+.Date{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 70%;
+    height: 1cm;
+    padding-left: 10px;
+    font-size: 1em;
+
+}
+
+.Date::placeholder{
+
+    font-size: 1em;
+
+}
+
+.Email{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 70%;
+    height: 1cm;
+    padding-left: 10px;
+    font-size: 1em;
+
+}
+
+.Email::placeholder{
+
+    font-size: 1em;
+
+}
+
+.User{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 70%;
+    height: 1cm;
+    padding-left: 10px;
+    font-size: 1em;
+
+}
+
+.User::placeholder{
+
+    font-size: 1em;
+
+}
+
+.Password{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 70%;
+    height: 1cm;
+    padding-left: 10px;
+    font-size: 1em;
+
+}
+
+.Password::placeholder{
+
+    font-size: 1em;
+
+}
+
+.Cpassword{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 70%;
+    height: 1cm;
+    padding-left: 10px;
+    font-size: 1em;
+
+}
+
+.Cpassword::placeholder{
+
+    font-size: 1em;
+
+}
+
+.EnfermedadC{
+
+    display: none;
+
+}
+
+.EnfermedadName{
+
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 70%;
+    height: 1cm;
+    padding-left: 10px;
+    font-size: 1em;
+    display: none;
+    margin-left: 1.2cm;
+
+}
+
+.EnfermedadName::placeholder{
+
+    font-size: 1em;
+
+}
+
+
+.buttomR{
+
+    
+    position: relative;
+    margin-top: 5%;
+
+    border-style: solid;
+    border-color: rgb(50, 53, 205);
+    border-radius: 5px;
+    border-width: 1px;
+    width: 4cm;
+    height: 1cm;
+
+    font-size: 15px;
+    color: rgb(50, 53, 205);
+    background-color: white;
+    cursor: pointer;
+}
+
+.buttomR:hover{
+
+    background-color: rgb(50, 53, 205);
+    color: white;
+
+}
+
+.Warnings{
+
+    font-size: 1em;
+    text-align: center;
+    color: #ec0000;
+}
+
+
+
+
+/* onclick="location.href='javascript:'"   window.open("usuarioregistro.html"); */

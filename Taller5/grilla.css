@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://img.freepik.com/foto-gratis/blur-hospital_1203-7972.jpg?size=626&ext=jpg");
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family: 'Century Gothic';
+
+}
+.container{
+    margin-top: 100px;
+}
+.volver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom{
+
+    
+    position: center;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: rgb(0, 16, 238);
+    border-radius: 5px;
+    border-width: 1px;
+    width: 4cm;
+    height: 1cm;
+
+    font-size: 15px;
+    color: rgb(0, 16, 241);
+    background-color: white;
+    cursor: pointer;
+}
+
+.buttom:hover{
+
+    background-color: rgb(56, 56, 59);
+    color: white;
+
+}

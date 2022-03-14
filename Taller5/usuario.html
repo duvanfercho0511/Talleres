@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+    <meta charset='UTF-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="usuario.css" />
+
+    </head>
+
+    <body> 
+
+        <div class="title1">
+            <h1 class="userRegister"> Registro de Usuarios: </h1><br><br>
+            <form id="Form">
+
+                <input class="Name" id="Name" name="name" type="text" placeholder="Nombre"><br><br>
+                <input class="LastName" id="LastName" name="lastname" type="text" placeholder="Apellido"><br><br>
+                <label>Fecha de nacimiento</label>
+                <input class="Date" id="Date" name="date" type="date"><br><br>
+                <input class="Email" id="Email" name="email" type="text" placeholder="Correo"><br><br>
+                <input class="User" id="User" name="user" type="text" placeholder="Usuario"><br><br>
+                <input class="Password" id="Password" name="password" type="password" placeholder="Contraseña"><br><br>
+                <input class="Cpassword" id="Cpassword" name="cpassword" type="password" placeholder="Confirmar Contraseña"><br><br>
+
+                <p>¿Ha sufrido enfermedades? <input class="Enfermedad" id="Enfermedad" name="Enfermedad" type="checkbox" onchange="showContent()"></p><br><br>
+                <p class="EnfermedadC" id="EnfermedadC" name="EnfermedadC">
+                    ¿Ha sufrido enfermedades contagiosas? <input id="EnfermedadCheck" type="checkbox" onchange="showContent()"></p><br><br>
+                <input class="EnfermedadName" id="EnfermedadName" name="EnfermedadName" type="text" placeholder="¿Cúal enfermedad?"><br><br>
+
+                <button class="buttomR" id="buttomR" type="submit" >Registrar</button>
+                <p class="Warnings" id="Warnings"> </p>
+            </form>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+        <script src='usuario.js'></script>
+
+    </body>
+
+</html>

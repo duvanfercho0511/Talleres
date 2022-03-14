@@ -1,0 +1,23 @@
+img {width:100%;}
+
+body{
+    background: url("https://www.redaccionmedica.com/images/destacados/una-bacteria-del-agua-del-mar-podria-ser-la-clave-para-tratar-el-melanoma-2097.jpg");
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input::placeholder{
+    color:black !important;
+    font-weight: 20 !important;
+}
+select option{
+    color:black !important;
+}
+
+.col-md-8{
+    background-color: rgb(228, 228, 228, 0.0) !important;
+}
+#fecha{
+    margin-bottom: 1px !important;
+}

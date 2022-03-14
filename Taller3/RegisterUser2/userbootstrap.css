@@ -1,0 +1,27 @@
+img {width:100%;}
+
+.card-body h2{
+    font-size: 23px;
+    margin: 0 px 20px 0;
+    padding:20% 0 20% 0;
+    text-align: center;
+    text-transform:uppercase;
+}
+h4 {
+    color: #000000;
+    font-size: 25px;
+    font-family: Georgia;
+  }
+.card-body img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+}
+body{
+    background-image: url("https://supertrendy.net/wp-content/uploads/2021/01/Bad-Bunny-1-1140x642.jpg");
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

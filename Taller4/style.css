@@ -1,0 +1,291 @@
+
+
+body{
+
+    background-image: url("https://i.pinimg.com/originals/c4/3f/6f/c43f6f49ff2fa7c4ad255847847a5d92.jpg");
+	background-position: center;
+    background-origin: content-box;
+    background-repeat: repeat;
+    background-size: cover;
+	min-height:100vh;
+	font-family: Georgia;
+	
+}
+
+.registroUsuarios{
+
+    width: 800px;
+    background-color: rgb(0, 0, 0, 0.98);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.main{
+
+    background-color: rgb(0, 0, 0, 0.90);
+    width: 800px;
+    margin: auto;
+
+}
+
+form{
+
+    padding-top: 10px;
+
+}
+
+
+.subtitle{
+
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.name , .lastname{
+    position: relative;
+    left: 200px;
+    width: 470px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+
+.IU{
+
+    position: relative;
+    left: 200px;
+    width: 470px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+
+
+}
+
+.pais{
+
+    position: relative;
+    left: 200px;
+    width: 470px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+
+
+}
+
+
+
+.password, .Cpassword{
+
+    position: relative;
+    left: 200px;
+    width: 470px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+
+}
+
+.direccion{
+
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 470px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+
+}
+
+.email{
+
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 470px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+
+}
+
+
+.number{
+
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 470px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+
+}
+
+
+.labelnumber{
+
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: -320px;
+    top: -2px;
+
+
+}
+
+.option{
+
+    position: relative;
+    left: 200px;
+    top: -20px;
+    line-height: 40px;
+    width: 520px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+
+}
+
+.option option{
+
+    font-size: 20px;
+
+}
+
+#boton{
+
+    position: relative;
+    left: 250px;
+    top: -10px
+}
+
+button{
+    margin-left: -50px;
+    background-color: #aa0000;
+    display: block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #c00909;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    
+}
+
+button:hover{
+
+    background-color: #1d1f22;
+
+}
+
+
+.GUDIV{
+
+    padding: 0.5cm;
+    display: none;
+
+}
+
+.GU{
+
+
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.fp{
+
+    margin-left: 25px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center
+
+}
+
+.dig{
+
+    margin-left: 20px;
+    width: 0.5cm;
+    height: 0.5cm;
+
+}
+
+.sp{
+
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.disenosp{
+
+    
+    position: relative;
+    left: 6.5cm;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.tp{
+
+    margin-left: 25px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.valor{
+
+    position: relative;
+    left: 5cm;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 8cm;
+
+}

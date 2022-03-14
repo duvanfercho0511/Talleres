@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+
+body{
+	background-image: url("https://www.xtrafondos.com/wallpapers/spider-man-across-the-spider-verse-9132.jpg");
+	background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height:100vh;
+	font-family: 'Century Gothic';
+	width: 90%;
+	height: 90%;
+}
+
+.body form{
+    color: rgb(165, 154, 154);
+}
+.text-center{
+    color:#fff;	
+    text-transform:uppercase;
+    font-size: 23px;
+    margin: 0 0px 20px 0;
+    display: block;
+    text-align: center;
+}
+.box{
+    position:absolute;
+    border: 10px solid rgb(10, 1, 85);
+    background-color: rgba(32, 38, 90, 0.98);
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    padding:80px 60px;
+    width: 300px;
+}
+.input-container{
+	position: relative;
+	margin-bottom:15px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:15px;
+	color:#fff;	
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{ 
+    border:0;
+    border-bottom:1px solid rgb(255, 255, 255);  
+    background:transparent;
+    width:100%;
+    padding:8px 0 5px 0;
+    font-size:16px;
+    color:#fff;
+  }
+
+.input-container input:focus{ 
+    border:none;	
+    outline:none;
+    border-bottom:1px solid #504a49;	
+}
+.btn{
+	color:white;
+	background-color:#504a49;
+	outline: none;
+    border: 0;
+    color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:30px;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+    
+
+}
+.btn:right{
+	content:"";
+	position:absolute;
+	background:rgba(0,0,0,0.90);
+	top:0;
+	right:0;
+	width:100%;
+	height:100%;
+}
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+
+select {
+    border: none;
+    background-color: transparent;
+	color: #fff;	
+ 	outline:none;
+	border-bottom:1px solid #555;
+	font-size: 16px;
+}
+select option{
+	color: black;
+}
+.input-container select:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #504a49;	
+}
+
+textarea{
+    resize: vertical;
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid #555;
+    color:#fff;
+    min-width: 100%;
+    min-height: 30px;
+    max-height: 80px;
+}
+
+input::placeholder {
+    color:#fff;
+  }
+
+textarea::placeholder{
+    font-size:16px;
+    color:#fff;
+}
+  
+input[type=date]{
+    text-align: left;
+    max-width: 35%;
+    margin-top:15px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    background-color:#504a49;
+}
+input[type=date]::-webkit-calendar-picker-indicator:hover {
+    background-color: #504a49;
+    color: #e6e6e6;
+    cursor: pointer;
+}
+
+.input input{ 
+    max-width: 40%;
+    float:left;
+    border:0;
+    border-bottom:1px solid #555;  
+    background:transparent;
+    width:100%;
+    padding:8px 0 5px 0;
+    font-size:16px;
+    color:#fff;
+  }
+

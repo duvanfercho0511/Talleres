@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title> Registro Usuarios </title>
+
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+
+    <body> 
+
+        <div class="registroUsuarios">
+
+            <h1> Registro de Usuarios </h1>
+
+        </div>
+
+        <div class="main">
+
+            <form action = "https://www.youtube.com/watch?v=hoQmSA6MRAk" method="post" id="Form">
+
+                
+                <h2 class="subtitle">Nombre:</h2>
+                <input class="name" id="Name" type="text" name="Name" maxlength="25">
+                
+                <h2 class="subtitle">Apellido:</h2>
+                <input class="lastname" id="lastName" type="text" name="Lastname" maxlength="25">                  
+                
+                <h2 class="subtitle">Id Usuario:</h2>
+                <input class="IU" type="text" name="IDUser" id="IU">
+                    
+                <h2 class="subtitle">Contraseña:</h2>
+                <input class="password" type="password" name="Password" id="Password">
+
+                <h2 class="subtitle">Confirmar Contraseña:</h2>
+                <input class="Cpassword" type="password" name="CPassword" id="Cpassword">
+                
+                <h2 class="subtitle">Direccion:</h2>
+                <input class="direccion" type="text" name="direccion" id="Direccion">
+
+                <h2 class="subtitle">Email:</h2>
+                <input class="email" type="email" name="email" id="Email">
+
+                <h2 class="subtitle">Teléfono:</h2>
+                <input class="number" type="number" name="phone" id="Number"> 
+                
+                <h2 class="subtitle"> Pais: </h2>
+                <input class="pais" type="text" name="pais" id="pais"> 
+                
+                <h2 class="GU">Gustos del Usuario:</h2><br><br>
+                <p class="fp">¿Desea ingresar sus gustos? 
+                    <input class="dig" id="dig" name="deseaIngresarGustos" type="checkbox" onchange="showContent()"></p><br><br>
+                <div class="GUDIV" id="GUDIV"> 
+
+                    <p class="sp" id="color">Color Favorito:</p>
+                    <input class="disenosp" id="colorFav" name="colorFav" type="text" ></p>
+
+                    <p class="sp">Marca Carro Favorito:</p>
+                    <input class="disenosp" id="marcaFav" name="colorFav" type="text" ></p>
+
+                    <p class="sp">Estilo Carro Favorito:</p>
+                    <input class="disenosp" id="estiloFav" name="colorFav" type="text" ></p>
+
+                    <p class="sp">Modelo Carro Favorito:</p>
+                    <input class="disenosp" id="modeloFav" name="colorFav" type="text" ></p>
+
+                    <p class="tp">Seleccione la cantidad que está dispuesto a gastar en un vehiculo:</p><br>
+                    <p class="sp">$<output id="cantidadFav"></output>
+                    <input type="range" id="valor" class="valor" min="0" max="100000000" value="0" step="1000000"></p>
+
+                </div>
+
+                <p class="tp" id="Warnings"> </p>
+                <div id="boton">
+                <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+        <script src='script.js'></script>
+    </body>
+</html>
